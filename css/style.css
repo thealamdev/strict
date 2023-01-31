@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* =============================== nav bar css start ===================== */
+
+.navbar {
+    background: #f6f9f9;
+}
+
+.navbar ul li {
+    padding-left: 45px;
+}
+
+.navbar ul li a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+    font-size: 24px;
+    color: #222222;
+}
+
+
+.my_stick_bg{
+    position: fixed;
+    background: #ffd5d5;
+    width:100%;
+    transition: 0.4s ease-in-out;
+    z-index: 100;
+    top:0;
+    left:0;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+}
+
+/* =============================== banner part css ================= */
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 215px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+
+.banner_text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 47px;
+    font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.banner_text h1::after {
+    position: absolute;
+    content: '';
+    top: 105px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+}
+
+.banner_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 47px;
+    font-size: 20px;
+    color: white;
+    padding-top: 77px;
+}
+
+
+.banner_text a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 47px;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    padding: 5px 34px 5px 34px;
+    border-radius: 3px;
+}
+
+.banner_arrow {
+    margin-top: 180px;
+    color: white;
+}
+
+/* ======================== about part css start ====================== */
+
+#about {
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+
+.about_text {
+    text-align: center;
+}
+
+.about_text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+    padding-bottom: 25px;
+}
+
+.about_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 20px;
+    color: #999999;
+
+}
+
+/* =================== service part start ======================== */
+
+#service {
+    margin-top: 65px;
+}
+
+.service_item {
+    text-align: center;
+    padding:15px;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+}
+
+.service_item:hover{
+    background: #cfaaaa;
+}
+
+
+.service_icon {
+    position: relative;
+    z-index: 1;
+    line-height: 100px;
+}
+
+.service_icon::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    background: #5fc3ff;
+    height: 100px;
+    width: 50px;
+    z-index: -1;
+    border-radius: 2px;
+}
+
+.service_icon::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 50%;
+    background: #48baff;
+    height: 100px;
+    width: 50px;
+    z-index: -1;
+    border-radius: 2px;
+}
+
+.service_text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2d3950;
+    padding-top: 30px;
+}
+
+.service_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #999999;
+    padding: 30px 0;
+}
+
+/* ================================ portfolio part start ================= */
+#portfolio {
+    background: #f6f9f9;
+    padding: 80px 0;
+}
+
+.portfolio_text {
+    text-align: center;
+
+}
+
+.portfolio_text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: #2d3950;
+    padding: 20px 0;
+}
+
+.portfolio_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #909090;
+}
+
+
+.portfolio_item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio_item img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 155, 235, 0.90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.portfolio_item:hover .overlay {
+    opacity: 1;
+}
+
+.port_logo {
+    text-align: center;
+
+}
+
+.port_logo i {
+    border: 1px solid white;
+    color: white;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+/* =================== contact part start ====================== */
+
+
+.contact_photo {
+    background: url(../images/contact_photo.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+
+}
+
+.contact_photo::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 54, 74, 0.9);
+}
+
+.contact_form {
+    margin-top: 30px;
+
+}
+
+.contact_form input {
+    width: 90%;
+    padding: 20px;
+    background: transparent;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+textarea {
+    width: 90%;
+    padding: 20px;
+    background: transparent;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+.contact_form a {
+    display: inline-block;
+    border: 1px solid #15a4fa;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+.contact_text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.contact_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #909090;
+}
+
+/* ==================== footer part css start ========== */
+
+#footer {
+    padding: 30px 0;
+}
+ .footer_text h2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 15px !important;
+    color: #999999;
+    padding-top: 20px;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f_logo_item {
+    width: 50px;
+    height: 50px;
+    background: #15a4fa;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.footer_logo i {
+    line-height: 50px;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.back-to-top{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(133, 84, 84);
+    text-align: center;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    display: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.back-to-top::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    width:60px;
+    height: 60px;
+    border: 2px solid yellow;
+    animation: ripples 2s linear infinite;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-animation: ripples 2s linear infinite;
+}
+
+
+.back-to-top::before{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    width:60px;
+    height: 60px;
+    border: 2px solid #ff0077;
+    border-radius: 50%;
+    animation: ripples 1s linear infinite;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-animation: ripples 2s 1s linear infinite;
+}
+
+ 
+
+
+
+@keyframes ripples{
+
+100%{
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    opacity: 0;
+}
+}
+
+.back-to-top i{
+    line-height: 60px;
+    font-size: 16px;
+    color:white;
+}
+

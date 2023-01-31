@@ -1,0 +1,253 @@
+/* ============== responsive css start ============== */
+
+/* ========== small device ========== */
+
+@media (max-width:576px) {
+
+
+    /* banner part responsive */
+    .navbar ul li {
+        text-align: center;
+        padding-left: 0;
+    }
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .banner_text h1 {
+        font-size: 55px;
+    }
+
+    .banner_text h1::after {
+        top: 150%;
+        left: 50%;
+        width: 85%;
+        transform: translateX(-50%);
+    }
+
+    .banner_text p {
+        line-height: 33px;
+        padding: 30px 35px;
+    }
+
+    .banner_text a {
+        margin-top: 0px;
+    }
+
+    .banner_arrow {
+        margin-top: 100px;
+    }
+
+    /* about part responsive */
+    .about_text h3 {
+        font-size: 35px;
+    }
+
+    .about_text p {
+        line-height: 27px;
+        font-size: 18px;
+    }
+
+    /* portfolio part responsive */
+
+    .portfolio_text h2 {
+        font-size: 35px;
+    }
+
+    .portfolio_text p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* contact us part responsive */
+    .contact_text h2 {
+        font-size: 35px;
+    }
+
+    .contact_text p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* footer part responsive */
+    .footer_logo {
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .footer_text h2 {
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:768px) {
+    /* navbar part responsive */
+    .navbar ul li {
+        text-align: center;
+        padding-left: 0;
+    }
+   /* banner part responsive */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .banner_text h1 {
+        line-height: 35px;
+        font-size: 90px;
+    }
+
+    .banner_text h1::after {
+        top: 205%;
+        left: 50%;
+        width: 85%;
+        transform: translateX(-50%);
+    }
+
+    .banner_text p {
+        line-height: 33px;
+        padding: 40px 35px;
+    }
+
+    .banner_text a {
+        margin-top: 0px;
+    }
+
+    .banner_arrow {
+        margin-top: 100px;
+    }
+
+    /* about part responsive */
+    .about_text h3 {
+        font-size: 35px;
+    }
+
+    .about_text p {
+        line-height: 27px;
+        font-size: 18px;
+    }
+
+    /* portfolio part responsive */
+
+    .portfolio_text h2 {
+        font-size: 35px;
+    }
+
+    .portfolio_text p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* contact us part responsive */
+    .contact_text h2 {
+        font-size: 35px;
+    }
+
+    .contact_text p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* footer part responsive */
+    .footer_logo {
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .footer_text h2 {
+        text-align: center;
+    }
+
+
+}
+
+/* ====== large device responsive ======= */
+
+
+@media (max-width:992px) {
+
+    /* navabar part responsive */
+
+    .navbar ul li {
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    /* banner part responsive */
+     #banner {
+         padding-top: 150px;
+         padding-bottom: 100px;
+     }
+ 
+     .banner_text h1 {
+         line-height: 35px;
+         font-size: 90px;
+     }
+ 
+     .banner_text h1::after {
+         top: 205%;
+         left: 50%;
+         width: 85%;
+         transform: translateX(-50%);
+     }
+ 
+     .banner_text p {
+         line-height: 33px;
+         padding: 40px 35px;
+     }
+ 
+     .banner_text a {
+         margin-top: 0px;
+     }
+ 
+     .banner_arrow {
+         margin-top: 100px;
+     }
+ 
+     /* about part responsive */
+     .about_text h3 {
+         font-size: 35px;
+     }
+ 
+     .about_text p {
+         line-height: 27px;
+         font-size: 18px;
+     }
+ 
+     /* portfolio part responsive */
+ 
+     .portfolio_text h2 {
+         font-size: 35px;
+     }
+ 
+     .portfolio_text p {
+         font-size: 18px;
+         padding-bottom: 20px;
+     }
+ 
+     /* contact us part responsive */
+     .contact_text h2 {
+         font-size: 35px;
+     }
+ 
+     .contact_text p {
+         font-size: 18px;
+         padding-bottom: 20px;
+     }
+ 
+     /* footer part responsive */
+     .footer_logo {
+         justify-content: center;
+         padding-top: 10px;
+     }
+ 
+     .footer_text h2 {
+         text-align: center;
+     }
+ 
+ 
+ }
